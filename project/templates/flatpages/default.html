@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestalt Psychology</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: url('background.jpg') no-repeat center center/cover; color: white; text-align: center; padding: 100px 0; }
+        .hero-title { font-size: 3em; margin: 0; }
+        .hero-subtitle { font-size: 1.5em; margin: 10px 0 20px; }
+        .cta-button { background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .container { padding: 50px 20px; }
+        h2 { color: #4CAF50; }
+        .principle { display: flex; align-items: center; margin: 20px 0; }
+        .principle img { max-width: 100px; margin-right: 20px; }
+        .services, .testimonials, .about, .contact { margin: 50px 0; }
+        .service, .testimonial { margin: 20px 0; }
+        .testimonial-carousel { display: flex; overflow-x: auto; }
+        .testimonial { flex: 0 0 auto; width: 300px; margin-right: 20px; background: #f9f9f9; padding: 20px; border-radius: 5px; }
+        .contact-form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+        .contact-form input, .contact-form textarea { margin-bottom: 10px; padding: 10px; }
+    </style>
+ <!-- Core theme CSS (includes Bootstrap)-->
+       {% load static %}
+       <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+    <h1 class="hero-title">Unlock Your Mind with Gestalt Psychology</h1>
+    <p class="hero-subtitle">Experience the Whole Picture</p>
+    <a href="#contact" class="cta-button">Book a Session</a>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>About Gestalt Psychology</h2>
+        <p>Gestalt psychology focuses on understanding the human mind and behavior as a whole, emphasizing that the whole is greater than the sum of its parts. It highlights the human ability to perceive patterns and organized structures.</p>
+    </section>
+
+    <section id="principles">
+        <h2>Core Principles</h2>
+        <div class="principle">
+            <img src="figure-ground.png" alt="Figure-Ground">
+            <div>
+                <h3>Figure-Ground</h3>
+                <p>Distinguish an object from its background.</p>
+            </div>
+        </div>
+        <div class="principle">
+            <img src="proximity.png" alt="Proximity">
+            <div>
+                <h3>Proximity</h3>
+                <p>Group objects based on their closeness.</p>
+            </div>
+        </div>
+        <div class="principle">
+            <img src="similarity.png" alt="Similarity">
+            <div>
+                <h3>Similarity</h3>
+                <p>Perceive similar objects as a unit.</p>
+            </div>
+        </div>
+        <div class="principle">
+            <img src="closure.png" alt="Closure">
+            <div>
+                <h3>Closure</h3>
+                <p>Mentally fill in gaps to see complete shapes.</p>
+            </div>
+        </div>
+        <div class="principle">
+            <img src="continuity.png" alt="Continuity">
+            <div>
+                <h3>Continuity</h3>
+                <p>Prefer continuous patterns and lines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services Offered</h2>
+        <div class="service">
+            <h3>Therapy Sessions</h3>
+            <p>Individual and group therapy sessions to help you understand and improve your mental health.</p>
+        </div>
+        <div class="service">
+            <h3>Workshops</h3>
+            <p>Interactive workshops to learn about Gestalt principles and how to apply them in everyday life.</p>
+        </div>
+        <div class="service">
+            <h3>Online Consultations</h3>
+            <p>Convenient online consultations to support your mental well-being from the comfort of your home.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <p>"I have gained so much clarity and understanding about my life through Gestalt therapy. Highly recommend!"</p>
+                <p>- Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The workshops were eye-opening and provided practical tools I could use immediately."</p>
+                <p>- John Smith</p>
+            </div>
+            <div class="testimonial">
+                <p>"Online consultations were just as effective as in-person sessions, very convenient!"</p>
+                <p>- Sarah Lee</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-psychologist">
+        <h2>About the Psychologist</h2>
+        <img src="psychologist.jpg" alt="Psychologist Photo" style="width: 150px; border-radius: 50%;">
+        <p>Dr. Alex Johnson is a licensed Gestalt psychologist with over 20 years of experience in helping individuals and groups achieve mental clarity and well-being. Dr. Johnson believes in the power of seeing the whole picture and uses Gestalt principles to guide clients towards a more integrated and fulfilling life.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="
+
+
